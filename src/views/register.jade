@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        title 注册
+        include layout/meta
+        link(rel="stylesheet",href="../style/common.css")
+        link(rel="stylesheet" href="../style/login.css")
+    body
+        #header
+            .content
+                .left
+                    a.middle.cursorp(href="/index.html")
+                        img(src="../image/logo.png")
+                    span.middle.line-length
+                    span.middle 用户注册
+        #content.login
+            .banner
+                .content
+                    img(src="../image/login/banner01.png")
+                    .box
+                        h2
+                            span 用户注册
+                            i / USER REGISTRATION
+                        form.form1
+                            .lable
+                                lable
+                                    span 手机号:
+                                    input(type="text")
+                            .lable
+                                lable
+                                    span 密&nbsp;&nbsp;&nbsp;&nbsp;码:
+                                    input(type="password")
+                            .lable
+                                lable
+                                    span 验证码:
+                                    input(type="text" style="width: 120px;")
+                                    b 获取验证码
+                            .check-box1
+                                input(type="checkbox" id="check-box")
+                                lable(for="check-box") 我已阅读并同意
+                                a 《叮咚阿姨注册协议》
+
+                            .log-btn
+                                a(href="") 提交注册
+
+        #loginFotter
+            span 重庆叮咚阿姨家政服务责任有限公司版权所有；备案号：渝ICP备1698349805号-3
+        script(src="../js/common.js")
+
+
+
+
+

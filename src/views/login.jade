@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        title 登录
+        include layout/meta
+        link(rel="stylesheet",href="../style/common.css")
+        link(rel="stylesheet" href="../style/login.css")
+    body
+        #header
+            .content
+                .left
+                    a.middle.cursorp(href="/index.html")
+                        img(src="../image/logo.png")
+                    span.middle.line-length
+                    span.middle 用户登录
+        #content.login
+            .banner
+                .content
+                    img(src="../image/login/banner01.png")
+                    .box
+                        h2
+                            span 用户登录
+                            i / USER LOGIN
+                        form
+                            .lable
+                                lable
+                                    span 用户名:
+                                    input(type="text")
+                            .lable
+                                lable
+                                    span 密&nbsp;&nbsp;&nbsp;&nbsp;码:
+                                    input(type="password")
+                            .check-box
+                                input(type="checkbox" id="check-box")
+                                lable(for="check-box") 两周内登录
+                                a 忘记密码?
+                            .log-btn
+                                a(href="") 立即登录
+                                p
+                                    span 还没有账号,&nbsp;&nbsp;&nbsp;&nbsp;
+                                    a(href="/views/register.html") 立即注册
+
+
+        #loginFotter
+            span 重庆叮咚阿姨家政服务责任有限公司版权所有；备案号：渝ICP备1698349805号-3
+        script(src="../js/common.js")
+
+
+
+
+

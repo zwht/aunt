@@ -1,56 +1,33 @@
-  .top {
-    img{width: 100%; vertical-align: top}
-  }
-  .mess{
-    background-color: #d4f0af;
-    .messList{
-      display: table;
-      margin-bottom: .5em;
-        span{display:table-cell; vertical-align: middle}
-        span.icon{display: inline-block; width:2.8em; height: 2.6em; margin-right: 1em; z-index: 100}
-        span.tel{background: url("../image/tel.png") no-repeat center; background-size: 100%;}
-        span.gps{background: url("../image/gps.png") no-repeat center; background-size: 100%;}
-        span.email{background: url("../image/email.png") no-repeat center; background-size: 100%;}
+.index{ padding-bottom:20px;
+  .banner{ text-align: center; background: url("../image/index/index_21.png"); height:487px;}
+  .h2{ text-align: center; padding: 10px 0 15px;
+    .title{ border-bottom: 1px solid #828282; position: relative; margin: 30px auto 30px; font-size: 40px;
+      font-weight: bold; width: 320px;
+      span{ position: absolute; background: #f4f4f4; top:-25px; left:60px; width: 200px;}
     }
+    >span{ color: #828282;}
   }
-  .line{height: .375em; background-color:#99b476;}
-  .describe{background-color:#d4f0af;line-height: 1.5em }
-
-
-//#circleChart,#lineChart,#pillarChart{ width: 100%; height: 300px}
-//#pillarChart{ width: 200px;}
-//
-//.index{
-//
-//  .chart{ padding: 1.9em 0 0; position: relative;
-//    a{ width: 100%;}
-//    #circleChart{ height: 10.33em}
-//    .img{ position: absolute; height: 4.6em; width: 4.6em; top: 3.5em; left: 50%; margin-left: -2.3em;
-//      img{ width: 100%;}
-//    }
-//    .p{ position: absolute; width: 100%; top: 8.2em; left: 0;
-//      span{ font-size: 1.4em;}
-//    }
-//  }
-//  .main{
-//    >div{ float: left; width: 50%; padding: 1.4em 0 0; margin-top: 1.4em; border-top: 2px solid #f3f3f3;
-//      .img{ height: 4.6em; width: 4.6em; border-radius: 2.3em; margin: 0 auto;
-//        img{ width: 3em; margin-top: 0.8em; vertical-align: middle}
-//      }
-//      .p{margin-top: 0.4em;}
-//    }
-//    .div01 {
-//      .img { background: #fe8b30  }
-//    }
-//    .div02 {
-//      .img { background: #328ac7  }
-//    }
-//    .div03 {
-//      .img { background: #80aa22  }
-//    }
-//    .div04 {
-//      .img { background: #22a9a2  }
-//    }
-//  }
-//  .footer{ height: 1.4em; width: 100%;}
-
+  .box1{ background: #FFF; padding: 30px 0 17px 30px; margin-bottom: 30px;
+    li{ float: left; text-align: center;  width: 276px; height:216px; margin:0 13px 13px 0; }
+    a{ display: block; widht:100%; height: 100%; font-size: 30px;  color: #FFF;
+      img{ margin-top:20px;}
+      span{ display: block;}
+    }
+    li:hover{ box-shadow: 0 0 10px #999;}
+  }
+  .box2{ background: #FFF; padding: 15px; margin-bottom: 30px;
+    li{ float: left; text-align: center;  width: 360px; height:370px; margin:15px;
+      position: relative; background: #f4f4f4; }
+    a{ display: block; widht:100%; height: 100%; font-size: 30px;
+      .img{
+        img{display: block; width: 100%;}
+      }
+      .about{ position: absolute; top:180px; left:130px; width:100px; height:100px;
+        border-radius: 50px; background: #FFF; padding:5px 0 0 5px;
+      }
+      p{ font-size: 26px; margin-top:60px; line-height: 40px;}
+      span{ display: block; font-size: 18px;}
+    }
+    li:hover{ box-shadow: 0 0 10px #999;}
+  }
+}
