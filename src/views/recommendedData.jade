@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        title 个人中心_个人资料
+        include layout/meta
+        link(rel="stylesheet",href="../style/common.css")
+        link(rel="stylesheet" href="../style/personalLeftmenu.css")
+        link(rel="stylesheet" href="../style/recommendedData.css")
+    body
+        include layout/head
+        #content.recommendedData.clear
+            .personalLeft.pull-left
+                .menus
+                    .title
+                        h1 个人中心
+                        span Personal Center
+                .menuList
+                    #listContent
+                        a(href="") 我的订单
+                            span.arrow
+                        a(href="") 我的收藏
+                            span.arrow
+                        a(href="") 我的评价
+                            span.arrow
+                        a(href="") 我的积分
+                            span.arrow
+                        a(href="") 关于我们
+                            span.arrow
+                        a(href="") 修改密码
+                            span.arrow
+                        a(href="") 意见反馈
+                            span.arrow
+                        a.active(href="") 服务地址
+                            span.arrow
+            .personalRight.pull-right
+                .pageTitle
+                    span.title
+                        h1.geren 个人
+                        h1.con 资料
+                .blocks
+                    .block.block1
+                        span.left  当前头像：
+                        img(src="../image/personalCenter/head.png" width=100)
+                        span.right 仅支持jpg、gif、png图片文件，且文件小于5M，
+                    .block.block2
+                        span.left  昵称：
+                        input.right.nickInput(type="text" placeholder="绿芽豆芽")
+                    .block.block3
+                        span.left  性别：
+                        div.right
+                            input#man(type="radio" name="sex" )
+                            label(for="man") 男
+                            input#woman(type="radio" name="sex")
+                            label(for="woman") 女
+                    .block.block4
+                        span.left 生日：
+                        div.right
+                            select
+                                option(value="01") 1980
+                                option(value="01") 1980
+                                option(value="01") 1980
+                            select
+                                option(value="01") 1980
+                                option(value="01") 1980
+                                option(value="01") 1980
+                            select
+                                option(value="01") 1980
+                                option(value="01") 1980
+                                option(value="01") 1980
+                    .block.block5
+                        span.left 服务地址：
+                        div.right
+                            select
+                                option(value="01") 重庆
+                                option(value="01") 重庆
+                                option(value="01") 重庆
+                            select
+                                option(value="01") 重庆
+                                option(value="01") 重庆
+                                option(value="01") 重庆
+                            select
+                                option(value="01") 重庆
+                                option(value="01") 重庆
+                                option(value="01") 重庆
+                    .block.block6
+                        span.saveBtn 保存
+
+
+        include layout/fotter
+        script(src="../js/common.js")
+
+
+
+
+

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        title 个人中心_我的订单_订单详情
+        include layout/meta
+        link(rel="stylesheet",href="../style/common.css")
+        link(rel="stylesheet" href="../style/personalLeftmenu.css")
+        link(rel="stylesheet" href="../style/orderDetail.css")
+    body
+        include layout/head
+        #content.recommendedData.clear
+            .personalLeft.pull-left
+                .menus
+                    .title
+                        h1 个人中心
+                        span Personal Center
+                .menuList
+                   #listContent
+                        a(href="") 我的订单
+                            span.arrow
+                        a(href="") 我的收藏
+                            span.arrow
+                        a(href="") 我的评价
+                            span.arrow
+                        a(href="") 我的积分
+                            span.arrow
+                        a(href="") 关于我们
+                            span.arrow
+                        a(href="") 修改密码
+                            span.arrow
+                        a(href="") 意见反馈
+                            span.arrow
+                        a.active(href="") 服务地址
+                            span.arrow
+            .personalRight.pull-right
+                .pageTitle
+                    span.title
+                        h1.geren 订单
+                        h1.con 详情
+
+                .orderDetail.clear
+                    .orderLeft.pull-left
+                        p 订单编号：51246124454512144521
+                        p 订单状态：
+                            span.status 待支付
+                        p 下单时间：2016-06-06  12:00
+                        p 支付方式：支付宝
+                        p 阿姨姓名：支付宝
+                        p 阿姨电话：15214639874
+                        p 服务信息：林丽丽&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;13555861121&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 四川省成都市高新区天府大道225号
+
+                    .orderRight.pull-right
+                        p 备注：
+                        p 可以准时来，下午我有事要出门
+                .detailList
+                    .listHe.clear
+                        span.t1.pull-left 服务
+                        span.t2.pull-left 预约时间
+                        span.t3.pull-left 面积(m²)
+                        span.t4.pull-left 总金额(元)
+                    .listC.clear
+                        span.t1.pull-left
+                            img.pull-left(src="../image/personalCenter/orderImg.png" width="72" height="72")
+                            span.orderName.pull-left(title="地砖保养") 地砖保养
+                            span.price.pull-left ￥60/m²
+                            span.allPrice.pull-left 500元起
+                        span.t2.pull-left 2016-06-06  12:00
+                        span.t3.pull-left 32m²
+                        span.t4.pull-left.totalPrice 555.00元
+
+                    .pay.clear
+                        .payC.pull-right
+                            span.pull-left 总计:
+                                b ￥200.00
+                            span.payBtn.pull-right 支&nbsp;&nbsp;付
+
+
+
+
+
+
+
+
+
+        include layout/fotter
+        script(src="../js/common.js")
+
+
+
+
+

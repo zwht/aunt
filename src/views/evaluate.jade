@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        title 个人中心_我的订单_评价
+        include layout/meta
+        link(rel="stylesheet",href="../style/common.css")
+        link(rel="stylesheet" href="../style/personalLeftmenu.css")
+        link(rel="stylesheet" href="../style/evaluate.css")
+    body
+        include layout/head
+        #content.recommendedData.clear
+            .personalLeft.pull-left
+                .menus
+                    .title
+                        h1 个人中心
+                        span Personal Center
+                .menuList
+                    #listContent
+                        a(href="") 我的订单
+                            span.arrow
+                        a(href="") 我的收藏
+                            span.arrow
+                        a(href="") 我的评价
+                            span.arrow
+                        a(href="") 我的积分
+                            span.arrow
+                        a(href="") 关于我们
+                            span.arrow
+                        a(href="") 修改密码
+                            span.arrow
+                        a(href="") 意见反馈
+                            span.arrow
+                        a.active(href="") 服务地址
+                            span.arrow
+            .personalRight.pull-right
+                .pageTitle
+                    span.title
+                        h1.geren 评价
+                        h1.con 晒单
+                .evaluate
+                    .block1
+                        img(src="../image/personalCenter/orderImg.png")
+                        .detail
+                            .orderName 地砖保养
+                            .price ￥60/m²
+                            .allPrice 500元起
+                .publishedEvaluation.clear
+                    span.pull-left.lab 发表评价：
+                    textarea(placeholder="请写下你宝贵的意见吧，对他人帮助很大哦")
+                    p.tips  500字以内
+
+                .uploadPhoto.clear
+                    span.pull-left.lab 上传照片：
+                    .upload
+                       .photos
+                            img.pull-left(src="../image/personalCenter/evimg_03.png" width="89" height="89")
+                            img.pull-left(src="../image/personalCenter/evimg_03.png" width="89" height="89")
+                            img.pull-left(src="../image/personalCenter/evimg_03.png" width="89" height="89")
+                            img.pull-left(src="../image/personalCenter/evimg_03.png" width="89" height="89")
+                            img.pull-left(src="../image/personalCenter/evimg_03.png" width="89" height="89")
+                            img.pull-left(src="../image/personalCenter/evimg_03.png" width="89" height="89")
+                            img.pull-left(src="../image/personalCenter/evimg_03.png" width="89" height="89")
+                            img.pull-left(src="../image/personalCenter/evimg_03.png" width="89" height="89")
+                            img.pull-left(src="../image/personalCenter/evimg_03.png" width="89" height="89")
+                            .add.pull-left
+                                 span
+
+                .name
+                    input#anonymous(type="checkbox")
+                    label.sm(for="anonymous") 匿名评价
+                .publication 发表评论
+
+
+
+
+
+
+
+
+
+
+
+
+
+        include layout/fotter
+        script(src="../js/common.js")
+
+
+
+
+

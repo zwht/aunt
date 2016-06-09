@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        title 个人中心_修改密码
+        include layout/meta
+        link(rel="stylesheet",href="../style/common.css")
+        link(rel="stylesheet" href="../style/personalLeftmenu.css")
+        link(rel="stylesheet" href="../style/updatePwd.css")
+    body
+        include layout/head
+        #content.recommendedData.clear
+            .personalLeft.pull-left
+                .menus
+                    .title
+                        h1 个人中心
+                        span Personal Center
+                .menuList
+                    #listContent
+                        a(href="") 我的订单
+                            span.arrow
+                        a(href="") 我的收藏
+                            span.arrow
+                        a(href="") 我的评价
+                            span.arrow
+                        a(href="") 我的积分
+                            span.arrow
+                        a(href="") 关于我们
+                            span.arrow
+                        a(href="") 修改密码
+                            span.arrow
+                        a(href="") 意见反馈
+                            span.arrow
+                        a.active(href="") 服务地址
+                            span.arrow
+            .personalRight.pull-right
+                .pageTitle
+                    span.title
+                        h1.geren 修改
+                        h1.con 密码
+
+                .updatePwd.clear
+                    .block1
+                        span.pull-left.la 登录密码:
+                        input(type="password" placeholder="请输入登录密码")
+                    .block1
+                        span.pull-left.la 新密码:
+                        input(type="password" placeholder="请输入新密码")
+                    .block1
+                        span.pull-left.la 确认新密码:
+                        input(type="password" placeholder="请再次输入新密码")
+                    span.saveBtn 保存
+
+
+        include layout/fotter
+        script(src="../js/common.js")
+
+
+
+
+

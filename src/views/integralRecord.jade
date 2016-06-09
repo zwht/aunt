@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        title 个人中心_关于我们
+        include layout/meta
+        link(rel="stylesheet",href="../style/common.css")
+        link(rel="stylesheet" href="../style/integralRecord.css")
+    body
+        include layout/head
+        #content.integralRecord.content
+            .top.clear
+                .left01
+                    img(src="../image/integral/integral01.png")
+                    div
+                        h2 绿芽科技
+                        p  可用余额:888.06元
+                 .left02
+                     h2 可用积分
+                     p 3444
+                 .left03
+                     a() 兑换超值礼品
+             ul.list
+                  li.first
+                        span.name 来源/途径
+                        span.value 积分变化
+                        span.date 日期
+                  li
+                        span.name 注册
+                        b.value +10
+                        span.date 2016-05-20
+                  li
+                      span.name 连续登录3天
+                      b.value +3
+                      span.date 2016-05-13
+                  li
+                      span.name 兑换商品消费积分
+                      i.value -10
+                      span.date 2016-05-11
+                  li
+                      span.name 购物获得积分
+                      b.value +10
+                      span.date 2016-05-04
+
+        include layout/fotter
+        script(src="../js/common.js")
