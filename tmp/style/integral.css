@@ -1,0 +1,92 @@
+.integral .banner {
+  height: 385px;
+  background: url("../image/integral/integral02.png") center;
+}
+.integral .banner .content {
+  position: relative;
+}
+.integral .banner .box {
+  height: 358px;
+  width: 267px;
+  background: url("../image/integral/integral03.png");
+  position: absolute;
+  top: -2px;
+  right: 20px;
+  text-align: center;
+}
+.integral .banner .box h3 {
+  margin-top: 220px;
+  font-size: 16px;
+  color: #fe7701;
+}
+.integral .banner .box p {
+  padding-bottom: 30px;
+  margin-top: 5px;
+  border-bottom: 1px solid #ededed;
+  color: #626262;
+}
+.integral .banner .box div {
+  color: #626262;
+  padding-top: 17px;
+}
+.integral .banner .box div img {
+  vertical-align: middle;
+}
+.integral .banner .box div span {
+  vertical-align: middle;
+}
+.integral h2 {
+  margin: 20px 10px;
+  font-size: 20px;
+}
+.integral .list {
+  background: #FFF;
+  padding: 15px;
+  margin-bottom: 50px;
+}
+.integral .list li {
+  width: 25%;
+  padding: 9px;
+  float: left;
+  height: 315px;
+}
+.integral .list li .box {
+  border: 1px solid #ededed;
+  height: 100%;
+  border-bottom: 2px solid #ededed;
+}
+.integral .list li img {
+  width: 100%;
+  height: 192px;
+}
+.integral .list li h4,
+.integral .list li p {
+  padding: 0 10px;
+  line-height: 23px;
+}
+.integral .list li h4 {
+  font-size: 16px;
+}
+.integral .list li .box div {
+  border-top: 1px solid #ededed;
+  line-height: 30px;
+  padding: 9px;
+}
+.integral .list li .box div b {
+  color: #fe7701;
+  margin-left: 3px;
+}
+.integral .list li .box div a {
+  float: right;
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  width: 80px;
+  text-align: center;
+  color: #FFF;
+  background: #fe7701;
+  border-radius: 5px;
+}
+.integral .list li .box div a:hover {
+  opacity: 0.9;
+}

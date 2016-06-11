@@ -1,0 +1,231 @@
+.appointment h1 {
+  line-height: 60px;
+  font-size: 18px;
+}
+.appointment .form {
+  background: #FFF;
+  padding: 30px;
+  color: #464646;
+}
+.appointment .form ul {
+  margin-bottom: 20px;
+}
+.appointment .form li {
+  height: 119px;
+  width: 242px;
+  background: url("../image/chinanet/bg02.png");
+  padding: 16px;
+  margin: 10px 10px 10px 0;
+  float: left;
+  font-size: 13px;
+  line-height: 20px;
+}
+.appointment .form li p i {
+  float: right;
+}
+.appointment .form li .address b {
+  color: #fe7701;
+  margin-top: 6px;
+}
+.appointment .form li .address p {
+  float: right;
+}
+.appointment .form li > span {
+  display: inline-block;
+  height: 48px;
+  padding: 5px 0;
+}
+.appointment .form li .add {
+  text-align: center;
+  color: #d4cec6;
+  padding-top: 10px;
+}
+.appointment .form li > a {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+.appointment .form .active {
+  background: url("../image/chinanet/bg01.png");
+}
+.appointment .form textarea {
+  height: 100px;
+  width: 530px;
+  border: 1px solid #ededed;
+  font-size: 13px;
+  color: #464646;
+  margin-top: 10px;
+  padding: 10px;
+}
+.appointment .form .botton {
+  display: inline-block;
+  height: 50px;
+  width: 180px;
+  text-align: center;
+  color: #fff;
+  background: #fe7701;
+  border-radius: 5px;
+  line-height: 50px;
+  margin-top: 20px;
+}
+.appointment .form .botton:hover {
+  opacity: 0.8;
+}
+.appointment .formbox {
+  border: 1px solid #ededed;
+  padding: 10px 30px;
+}
+.appointment .formbox .title b {
+  color: #fe7701;
+}
+.appointment .formbox div {
+  margin: 15px 0;
+}
+.appointment .formbox label input {
+  height: 36px;
+  width: 500px;
+  border: 1px solid #ededed;
+  padding-left: 10px;
+}
+.appointment .formbox label span {
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+}
+.appointment .formbox label textarea {
+  vertical-align: top;
+}
+.appointment .formbox .radio-box {
+  color: #fe7701;
+}
+.appointment .formbox .radio-box input {
+  width: auto;
+  vertical-align: middle;
+  margin-right: 4px;
+}
+.appointment .formbox .rq a {
+  display: inline-block;
+  width: 150px;
+  heigth: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 5px;
+  background: #ededed;
+  margin-left: 10px;
+}
+.appointment .formbox .rq .qr {
+  color: #fff;
+  background: #fe7701;
+  margin-left: 100px;
+}
+.appointment .formbox select {
+  margin-right: 10px;
+  width: 154px;
+  height: 30px;
+  color: #888;
+}
+.appointment h4 {
+  margin: 20px 0;
+  font-size: 18px;
+}
+.appointment .detailList {
+  padding: 20px;
+  margin-bottom: 50px;
+  box-sizing: border-box;
+  background: #FFF;
+}
+.appointment .detailList .listHe,
+.appointment .detailList .listC {
+  border-bottom: 1px solid #efefef;
+}
+.appointment .detailList .listHe span,
+.appointment .detailList .listC span {
+  display: inline-block;
+  padding: 10px;
+  font-size: 13px;
+  color: #888;
+}
+.appointment .detailList .listHe .t1,
+.appointment .detailList .listC .t1 {
+  width: 25%;
+}
+.appointment .detailList .listHe .t2,
+.appointment .detailList .listC .t2 {
+  width: 25%;
+}
+.appointment .detailList .listHe .t3,
+.appointment .detailList .listC .t3 {
+  width: 25%;
+}
+.appointment .detailList .listHe .t4,
+.appointment .detailList .listC .t4 {
+  width: 25%;
+}
+.appointment .detailList .listHe .totalPrice,
+.appointment .detailList .listC .totalPrice {
+  color: #fd6955;
+}
+.appointment .detailList .listHe img,
+.appointment .detailList .listC img {
+  margin-right: 15px;
+}
+.appointment .detailList .listHe .orderName,
+.appointment .detailList .listC .orderName {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  color: #393939;
+  display: block;
+  width: 170px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.appointment .detailList .listHe .price,
+.appointment .detailList .listC .price {
+  color: #fe7701;
+  display: block;
+  width: 170px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.appointment .detailList .listHe .allPrice,
+.appointment .detailList .listC .allPrice {
+  color: #9e9e9e;
+  display: block;
+  width: 170px;
+  padding: 0;
+  margin-bottom: 5px;
+}
+.appointment .detailList .text-box h5 {
+  margin: 10px 0;
+}
+.appointment .detailList .text-box textarea {
+  width: 560px;
+  height: 120px;
+  border: 1px solid #ededed;
+}
+.appointment .detailList .payC {
+  margin-top: 20px;
+}
+.appointment .detailList .payC span {
+  font-size: 13px;
+  color: #888;
+}
+.appointment .detailList .payC b {
+  color: #ed2121;
+  font-size: 22px;
+}
+.appointment .detailList .payC .payBtn {
+  width: 130px;
+  border-radius: 3px;
+  display: block;
+  background-color: #fe7701;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 20px;
+}

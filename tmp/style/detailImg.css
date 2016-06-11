@@ -1,0 +1,319 @@
+.detailImg .top {
+  padding: 30px;
+  background-color: #fff;
+  margin-top: 30px;
+}
+.detailImg .top .topLeft {
+  width: 400px;
+  margin-right: 20px;
+}
+.detailImg .top .topRight {
+  position: relative;
+  font-size: 14px;
+  color: #323232;
+  width: 712px;
+}
+.detailImg .top .topRight .buyDetail {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.detailImg .top .topRight .buyDetail .title {
+  font-size: 16px;
+  color: #161616;
+  margin-bottom: 20px;
+}
+.detailImg .top .topRight .buyDetail .danjia {
+  font-size: 30px;
+  color: #ff3232;
+  margin-right: 20px;
+}
+.detailImg .top .topRight .buyDetail .price {
+  margin-bottom: 10px;
+}
+.detailImg .top .topRight .buyDetail .qi {
+  color: #fe7701;
+}
+.detailImg .top .topRight .share {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.detailImg .top .topRight .share span {
+  display: inline-block;
+  font-size: 12px;
+  color: #c2c2c2;
+  width: 100px;
+  height: 18px;
+  text-align: right;
+}
+.detailImg .top .topRight .share .collection {
+  background: url("../image/common/collection.png") no-repeat left;
+  width: 45px;
+  margin-right: -10px;
+  vertical-align: top;
+}
+.detailImg .top .topRight .share .shares {
+  background: url("../image/common/share.png") no-repeat center;
+  width: 75px;
+  vertical-align: top;
+}
+.detailImg .top .blockbottom {
+  font-size: 14px;
+  color: #323232;
+}
+.detailImg .top .blockbottom .roomsize {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.detailImg .top .blockbottom .roomsize .pf {
+  width: 110px;
+  height: 38px;
+  border-radius: 5px;
+  margin: 0 10px;
+  color: #fe7701;
+  line-height: 38px;
+  text-align: center;
+  border: 1px solid #dadada;
+  display: inline-block;
+}
+.detailImg .top .blockbottom .roomsize .total {
+  color: #fe7701;
+}
+.detailImg .top .blockbottom .telPhone {
+  margin-bottom: 30px;
+}
+.detailImg .top .blockbottom .telPhone .num {
+  color: #fe7701;
+}
+.detailImg .top .blockbottom .time {
+  margin-bottom: 50px;
+}
+.detailImg .top .blockbottom .time .dateTime {
+  color: #fe7701;
+}
+.detailImg .top .blockbottom .time .dateImg {
+  margin-left: 10px;
+  width: 16px;
+  height: 14px;
+  background: url("../image/common/dateImg.png") no-repeat center;
+  display: inline-block;
+}
+.detailImg .top .blockbottom .yuyueBtn {
+  width: 170px;
+  height: 46px;
+  background-color: #fe7701;
+  color: #fff;
+  text-align: center;
+  line-height: 45px;
+  font-size: 18px;
+  display: block;
+  border-radius: 5px;
+}
+.detailImg .bottom {
+  margin-top: 20px;
+  box-sizing: border-box;
+}
+.detailImg .bottom .tab {
+  border-bottom: 2px solid #f4f4f4;
+  padding-bottom: 10px;
+}
+.detailImg .bottom .tab span {
+  font-size: 18px;
+  color: #1e1e1e;
+  padding-bottom: 10px;
+  border-bottom: 2px solid transparent;
+  padding: 10px 20px;
+  margin-right: 20px;
+}
+.detailImg .bottom .tab span.active {
+  color: #fe7701;
+  border-bottom-color: #fe7701;
+}
+.detailImg .bottom .bottomLeft {
+  width: 920px;
+  margin-right: 20px;
+  background-color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.detailImg .bottom .bottomLeft .tabCotent {
+  padding-top: 20px;
+}
+.detailImg .bottom .bottomLeft .tabCotent .serviceTitle {
+  font-size: 16px;
+  color: #151515;
+}
+.detailImg .bottom .bottomLeft .tabCotent .imgList {
+  padding-bottom: 50px;
+}
+.detailImg .bottom .bottomLeft .tabCotent .imgList .listc {
+  display: inline-block;
+  margin-top: 30px;
+  width: 216px;
+}
+.detailImg .bottom .bottomLeft .tabCotent .imgList .listc a {
+  display: block;
+  width: 155px;
+  height: 155px;
+  border-radius: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+.detailImg .bottom .bottomLeft .tabCotent .imgList .listc p {
+  text-align: center;
+  margin-top: 10px;
+}
+.detailImg .bottom .bottomLeft .standard {
+  padding-bottom: 50px;
+}
+.detailImg .bottom .bottomLeft .standard .standardTitle {
+  font-size: 16px;
+  color: #151515;
+  margin-bottom: 20px;
+}
+.detailImg .bottom .bottomLeft .standard p {
+  margin-top: 10px;
+}
+.detailImg .bottom .bottomLeft .standard p span {
+  font-size: 13px;
+  color: #888;
+}
+.detailImg .bottom .bottomLeft .standard p .imgSpan {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+  display: inline-block;
+  vertical-align: top;
+}
+.detailImg .bottom .bottomLeft .standard p .img1 {
+  background: url("../image/common/img1.png");
+}
+.detailImg .bottom .bottomLeft .standard p .img2 {
+  background: url("../image/common/img2.png");
+}
+.detailImg .bottom .bottomLeft .standard p .img3 {
+  background: url("../image/common/img3.png");
+}
+.detailImg .bottom .bottomLeft .evaluatelist .block1 {
+  overflow: hidden;
+  display: block;
+  width: 880px;
+  margin: 0 auto;
+  padding: 20px 0 20px 20px;
+  border-bottom: 1px dashed #e5e5e5;
+}
+.detailImg .bottom .bottomLeft .evaluatelist .block1 .describe {
+  margin-left: 20px;
+  width: 600px;
+}
+.detailImg .bottom .bottomLeft .evaluatelist .block1 .describe .sName {
+  font-size: 14px;
+  color: #393939;
+}
+.detailImg .bottom .bottomLeft .evaluatelist .block1 .describe .sdes {
+  width: 600px;
+  word-break: break-all;
+  line-height: 1.5em;
+  font-size: 13px;
+  color: #888;
+  margin-top: 10px;
+}
+.detailImg .bottom .bottomLeft .evaluatelist .block1 .blockList {
+  overflow: hidden;
+}
+.detailImg .bottom .bottomLeft .evaluatelist .block1 .time {
+  font-size: 13px;
+  color: #858585;
+}
+.detailImg .bottom .bottomLeft .evaluatelist .block1 .imgList {
+  width: 600px;
+  margin-left: 90px;
+}
+.detailImg .bottom .bottomLeft .evaluatelist .block1 .imgList img {
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.detailImg .bottom .bottomLeft .page {
+  width: 880px;
+  margin: 50px auto;
+}
+.detailImg .bottom .bottomLeft .page .pageC {
+  text-align: center;
+}
+.detailImg .bottom .bottomLeft .page .pageC .currentPage,
+.detailImg .bottom .bottomLeft .page .pageC .pages,
+.detailImg .bottom .bottomLeft .page .pageC .nextPage,
+.detailImg .bottom .bottomLeft .page .pageC .last {
+  display: inline-block;
+  padding: 0 5px;
+  font-size: 13px;
+}
+.detailImg .bottom .bottomLeft .page .pageC .currentPage {
+  color: #fe7701;
+}
+.detailImg .bottom .bottomLeft .page .pageC .nextPage,
+.detailImg .bottom .bottomLeft .page .pageC .last {
+  background-color: #f85600;
+  color: #fff;
+  padding: 3px 10px;
+  text-align: center;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.detailImg .bottom .bottomLeft .page .pageC .pages a {
+  display: inline-block;
+  padding: 4px 7px;
+  margin: 0 5px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.detailImg .bottom .bottomLeft .page .pageC .pages a.active {
+  background-color: #f85600;
+  color: #fff;
+}
+.detailImg .bottom .bottomRight {
+  width: 260px;
+  background-color: #fff;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.detailImg .bottom .bottomRight .topTitle {
+  width: 220px;
+  padding: 10px 20px 5px 20px;
+  border-bottom: 1px solid #efefef;
+  margin: 0 auto 10px auto;
+  font-size: 18px;
+  color: #525252;
+}
+.detailImg .bottom .bottomRight .serverList .serverBlock {
+  width: 220px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.detailImg .bottom .bottomRight .serverList .lr {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.detailImg .bottom .bottomRight .serviceb {
+  margin-top: 10px;
+}
+.detailImg .bottom .bottomRight .serviceb .title {
+  font-size: 19px;
+  color: #484848;
+}
+.detailImg .bottom .bottomRight .serviceb .byeNum {
+  font-size: 15px;
+  color: #656565;
+}
+.detailImg .bottom .bottomRight .serPrice {
+  margin-top: 5px;
+}
+.detailImg .bottom .bottomRight .serPrice .price {
+  font-size: 20px;
+  color: #fe7701;
+  margin-right: 20px;
+}
+.detailImg .bottom .bottomRight .serPrice .allPrice {
+  font-size: 15px;
+  color: #acacab;
+}

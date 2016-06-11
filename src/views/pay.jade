@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 html(lang="en")
     head
-        title 服务
+        title 支付
         include layout/meta
         link(rel="stylesheet",href="../style/common.css")
         link(rel="stylesheet" href="../style/pay.css")
@@ -9,7 +9,20 @@ html(lang="en")
         include layout/head
         #content.pay
             .content
-                
+                .payDetail
+                    .top
+                        span.orderD 订单编号：458585235552，应付金额：
+                        spsn.money ￥220.00
+                    .payType.clear
+                        span.zhifubao.pull-left.active
+                        span.weixin.pull-left
+                        span.yue.pull-left
+                            span.keyong
+                            span.keyongyue.pull-right 可用余额
+                                span.money 885.2
+                                span 元
+                    .payBtn 确认支付
+
         include layout/fotter
         script(src="../js/common.js")
 

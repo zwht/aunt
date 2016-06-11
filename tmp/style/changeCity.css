@@ -1,0 +1,53 @@
+.changeCity {
+  background: #FFF !important;
+}
+.changeCity .big-img {
+  width: 100%;
+  display: block;
+}
+.changeCity .top {
+  margin: 30px 0;
+}
+.changeCity .top input {
+  margin: 0 16px 0 0;
+}
+.changeCity .top b {
+  font-weight: bold;
+  margin: 0 10px;
+}
+.changeCity .top a {
+  margin: 0 6px;
+}
+.changeCity h3 {
+  border-top: 1px solid #ededed;
+  line-height: 40px;
+  font-weight: bold;
+}
+.changeCity .left,
+.changeCity .right {
+  float: left;
+}
+.changeCity .left {
+  width: 30px;
+}
+.changeCity .right {
+  width: 1170px;
+}
+.changeCity a {
+  display: inline-block;
+  margin: 0 6px;
+}
+.changeCity a:hover,
+.changeCity .active {
+  color: #fe7701;
+}
+.changeCity .first {
+  font-weight: bold;
+}
+.changeCity li {
+  margin: 8px 0;
+  line-height: 24px;
+}
+.changeCity ul {
+  padding-bottom: 40px;
+}

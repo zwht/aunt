@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        title 找回密码
+        include layout/meta
+        link(rel="stylesheet",href="../style/common.css")
+        link(rel="stylesheet" href="../style/retrieve.css")
+    body
+        #header
+            .content.clear
+                .left
+                    a.middle.cursorp(href="/index.html")
+                        img(src="../image/logo.png")
+                    span.middle.line-length
+                    span.middle 找回密码
+        #content.retrieve
+            .content
+                .box
+                    h2
+                        img(src="../image/login/retrieve01.png")
+                        span 找回密码
+                    form
+                        .lable
+                            label
+                                span 手机号:
+                                input(type="text")
+                        .lable
+                            label
+                                span 验证码:
+                                input.sorlt(type="password")
+                                a(href="") 获取短信验证码
+                        .lable
+                            label
+                                span 新密码:
+                                input(type="password")
+                        .lable
+                            label
+                                span 在此输入密码:
+                                input(type="password")
+
+                        .log-btn
+                            a(href="/views/register.html") 确&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;定
+
+
+
+        #loginFotter
+            span 重庆叮咚阿姨家政服务责任有限公司版权所有；备案号：渝ICP备1698349805号-3
+        script(src="../js/common.js")
+
+
+
+
+

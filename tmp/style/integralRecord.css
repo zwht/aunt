@@ -1,0 +1,93 @@
+.integralRecord .top {
+  background: #FFF;
+  margin: 40px 0 20px;
+  padding: 20px 30px;
+}
+.integralRecord .top h2 {
+  font-size: 16px;
+}
+.integralRecord .top .left01 {
+  width: 320px;
+  float: left;
+  border-right: 1px solid #ededed;
+}
+.integralRecord .top .left01 div {
+  float: left;
+  padding: 17px;
+}
+.integralRecord .top .left01 div p {
+  font-size: 14px;
+  color: #888888;
+  margin-top: 10px;
+}
+.integralRecord .top .left01 img {
+  float: left;
+}
+.integralRecord .top .left02 {
+  width: 220px;
+  float: left;
+  text-align: center;
+  padding-top: 15px;
+  border-right: 1px solid #ededed;
+}
+.integralRecord .top .left02 p {
+  font-size: 24px;
+  color: #fe7701;
+  margin-top: 5px;
+}
+.integralRecord .top .left03 {
+  width: 600px;
+  float: left;
+  text-align: center;
+}
+.integralRecord .top .left03 a {
+  display: inline-block;
+  width: 180px;
+  height: 40px;
+  line-height: 40px;
+  background: #fe7701;
+  border-radius: 5px;
+  color: #FFF;
+  margin-top: 25px;
+}
+.integralRecord .top .left03 a:hover {
+  opacity: 0.9;
+}
+.integralRecord .list {
+  background: #FFF;
+  padding: 20px;
+  margin-bottom: 60px;
+}
+.integralRecord .list .first {
+  border-top: 0;
+  border-bottom: 5px solid #ededed;
+}
+.integralRecord .list li {
+  border-top: 1px solid #ededed;
+  line-height: 60px;
+}
+.integralRecord .list li span,
+.integralRecord .list li b,
+.integralRecord .list li i {
+  display: inline-block;
+}
+.integralRecord .list li .name {
+  width: 40%;
+  padding-left: 30px;
+}
+.integralRecord .list li .value {
+  width: 25%;
+  text-align: center;
+}
+.integralRecord .list li .date {
+  width: 35%;
+  text-align: center;
+}
+.integralRecord .list li b {
+  font-size: 24px;
+  color: #fe7701;
+}
+.integralRecord .list li i {
+  color: #ff2c2c;
+  font-size: 24px;
+}

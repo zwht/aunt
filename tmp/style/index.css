@@ -1,0 +1,104 @@
+.index {
+  padding-bottom: 20px;
+}
+.index .banner {
+  text-align: center;
+  background: url("image/index/index_21.png");
+  height: 487px;
+}
+.index .h2 {
+  text-align: center;
+  padding: 10px 0 15px;
+}
+.index .h2 .title {
+  border-bottom: 1px solid #828282;
+  position: relative;
+  margin: 30px auto 30px;
+  font-size: 40px;
+  font-weight: bold;
+  width: 320px;
+}
+.index .h2 .title span {
+  position: absolute;
+  background: #f4f4f4;
+  top: -25px;
+  left: 60px;
+  width: 200px;
+}
+.index .h2 > span {
+  color: #828282;
+}
+.index .box1 {
+  background: #FFF;
+  padding: 30px 0 17px 30px;
+  margin-bottom: 30px;
+}
+.index .box1 li {
+  float: left;
+  text-align: center;
+  width: 276px;
+  height: 216px;
+  margin: 0 13px 13px 0;
+}
+.index .box1 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+  color: #FFF;
+}
+.index .box1 a img {
+  margin-top: 20px;
+}
+.index .box1 a span {
+  display: block;
+}
+.index .box1 li:hover {
+  box-shadow: 0 0 10px #999;
+}
+.index .box2 {
+  background: #FFF;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+.index .box2 li {
+  float: left;
+  text-align: center;
+  width: 360px;
+  height: 370px;
+  margin: 15px;
+  position: relative;
+  background: #f4f4f4;
+}
+.index .box2 a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 30px;
+}
+.index .box2 a .img img {
+  display: block;
+  width: 100%;
+}
+.index .box2 a .about {
+  position: absolute;
+  top: 180px;
+  left: 130px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background: #FFF;
+  padding: 5px 0 0 5px;
+}
+.index .box2 a p {
+  font-size: 26px;
+  margin-top: 60px;
+  line-height: 40px;
+}
+.index .box2 a span {
+  display: block;
+  font-size: 18px;
+}
+.index .box2 li:hover {
+  box-shadow: 0 0 10px #999;
+}

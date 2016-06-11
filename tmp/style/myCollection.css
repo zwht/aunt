@@ -1,0 +1,73 @@
+.serverList {
+  padding-top: 20px;
+}
+.serverList .serverBlock {
+  width: 260px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.serverList .lr {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.serviceb {
+  margin-top: 10px;
+}
+.serviceb .title {
+  font-size: 19px;
+  color: #484848;
+}
+.serviceb .byeNum {
+  font-size: 15px;
+  color: #656565;
+}
+.serPrice {
+  margin-top: 5px;
+}
+.serPrice .price {
+  font-size: 20px;
+  color: #fe7701;
+  margin-right: 20px;
+}
+.serPrice .allPrice {
+  font-size: 15px;
+  color: #acacab;
+}
+.page {
+  width: 880px;
+  margin: 100px auto;
+}
+.page .pageC {
+  text-align: center;
+}
+.page .pageC .currentPage,
+.page .pageC .pages,
+.page .pageC .nextPage,
+.page .pageC .last {
+  display: inline-block;
+  padding: 0 5px;
+  font-size: 13px;
+}
+.page .pageC .currentPage {
+  color: #fe7701;
+}
+.page .pageC .nextPage,
+.page .pageC .last {
+  background-color: #f85600;
+  color: #fff;
+  padding: 3px 10px;
+  text-align: center;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.page .pageC .pages a {
+  display: inline-block;
+  padding: 4px 7px;
+  margin: 0 5px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.page .pageC .pages a.active {
+  background-color: #f85600;
+  color: #fff;
+}

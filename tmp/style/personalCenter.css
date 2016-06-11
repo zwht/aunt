@@ -1,0 +1,35 @@
+.serverList {
+  padding-top: 20px;
+}
+.serverList .serverBlock {
+  width: 260px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.serverList .lr {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.serviceb {
+  margin-top: 10px;
+}
+.serviceb .title {
+  font-size: 19px;
+  color: #484848;
+}
+.serviceb .byeNum {
+  font-size: 15px;
+  color: #656565;
+}
+.serPrice {
+  margin-top: 5px;
+}
+.serPrice .price {
+  font-size: 20px;
+  color: #fe7701;
+  margin-right: 20px;
+}
+.serPrice .allPrice {
+  font-size: 15px;
+  color: #acacab;
+}

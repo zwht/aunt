@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        title 包月服务
+        include layout/meta
+        link(rel="stylesheet",href="../style/common.css")
+        link(rel="stylesheet" href="../style/appointment.css")
+    body
+        include layout/head
+        #content.appointment
+            .content
+                h1 选择服务地址
+            .content.form
+
+                ul.clear
+                    li.active
+                        p
+                            span 杨洁
+                            i 1375285781
+                        span 重庆市九龙坡区黄杨路83号保利港湾国际4-30-3
+                        .address
+                            b 默认地址
+                            p
+                                a(href="")
+                                    img(src="../image/chinanet/icon02.png")
+                                a(href="")
+                                    img(src="../image/chinanet/icon03.png")
+                    li
+                        p
+                            span 杨洁
+                            i 1375285781
+                        span 重庆市九龙坡区黄杨路83号保利港湾国际4-30-3
+                    li
+                        a(href="")
+                            .add
+                                img(src="../image/chinanet/icon01.png")
+                                div 使用新地址
+
+                form.formbox
+                    div.title
+                        a(href="")
+                            span 新增服务地址
+                            b (均为必填项）
+                    div
+                        label
+                            span 联系人:
+                            input(placeholder="长度不能超过25个字符")
+                    div
+                        label
+                            span 手机:
+                            input()
+                    div
+                        label
+                            span 所在区域:
+                            select
+                                option(value) 重庆
+                                option(value) 四川
+                                option(value) 贵州
+                            select
+                                option(value) 重庆市
+                                option(value) 成都
+                                option(value) 贵阳
+                            select
+                                option(value) 九龙坡区
+                                option(value) 桥本的
+                                option(value) 是的风格
+                    div
+                        label
+                            span 详细地址:
+                            textarea(placeholder="建议您如实填写详细服务地址，例如街道名称，门牌号码，楼层和房间号等信息")
+                    div.radio-box
+                        label
+                            span
+                            input( type="checkbox")
+                            i 设置为默认服务地址
+                    .rq
+                        a.qr(href="") 确认地址
+                        a(href="") 取消
+
+            .content
+                h4 确认订单信息
+                .detailList
+                    .listHe.clear
+                        span.t1.pull-left 服务
+                        span.t2.pull-left 预约时间
+                        span.t3.pull-left 面积(m²)
+                        span.t4.pull-left 总金额(元)
+                    .listC.clear
+                        span.t1.pull-left
+                            img.pull-left(src="../image/personalCenter/orderImg.png" width="72" height="72")
+                            span.orderName.pull-left(title="地砖保养") 地砖保养
+                            span.price.pull-left ￥60/m²
+                            span.allPrice.pull-left 500元起
+                        span.t2.pull-left 2016-06-06  12:00
+                        span.t3.pull-left 32m²
+                        span.t4.pull-left.totalPrice 555.00元
+                    .text-box
+                        h5 备注
+                        textarea
+                    .pay.clear
+                        .payC.pull-right
+                            span.pull-left 总计:
+                                b ￥200.00
+                            a(href="").payBtn.pull-right 立即预约
+
+
+
+
+        include layout/fotter
+        script(src="../js/common.js")

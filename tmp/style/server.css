@@ -1,0 +1,71 @@
+.server .bar {
+  height: 60px;
+  padding: 15px 5px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.server .bar span {
+  margin: 0 6px;
+}
+.server .bar a:hover {
+  color: #fe7701;
+}
+.server .nav {
+  padding: 15px;
+  background: #FFF;
+}
+.server .nav li {
+  float: left;
+  width: 195px;
+  border-right: 1px solid #ededed;
+  font-size: 16px;
+  text-align: center;
+}
+.server .nav li a {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}
+.server .nav li .img1 {
+  display: inline-block;
+}
+.server .nav li .img2 {
+  display: none;
+}
+.server .nav li span {
+  display: inline-block;
+}
+.server .nav .active a,
+.server .nav li:hover a {
+  color: #fe7701;
+}
+.server .nav .active .img1,
+.server .nav li:hover .img1 {
+  display: none;
+}
+.server .nav .active .img2,
+.server .nav li:hover .img2 {
+  display: inline-block;
+}
+.server .list {
+  padding: 20px;
+  background: #FFF;
+  margin: 30px 0 50px;
+}
+.server .list li {
+  float: left;
+  width: 383px;
+  padding: 20px;
+}
+.server .list li img {
+  width: 100%;
+}
+.server .list li h3 {
+  font-size: 26px;
+}
+.server .list li p {
+  font-size: 18px;
+}
+.server .list li:hover {
+  box-shadow: 0 0 10px #999;
+}

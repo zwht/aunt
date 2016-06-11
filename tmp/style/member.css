@@ -1,0 +1,64 @@
+.member {
+  background: #f7551d;
+}
+.member .banner {
+  text-align: center;
+}
+.member .banner img {
+  max-width: 1920px;
+  width: 100%;
+  display: block;
+}
+.member ul {
+  padding-bottom: 30px;
+}
+.member ul li {
+  width: 385px;
+  float: left;
+  margin-right: 22px;
+  background: #faf9dd;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+.member ul li h2 {
+  text-align: center;
+  background: #ffeebf;
+  border-radius: 8px 8px 0 0;
+}
+.member ul li h2 span {
+  font-size: 24px;
+  vertical-align: bottom;
+}
+.member ul li h2 b {
+  color: #fe7701;
+  font-size: 36px;
+  vertical-align: bottom;
+}
+.member ul li .ml {
+  width: 385px;
+  height: 188px;
+  background: url("../image/member/hb.png");
+}
+.member ul li .ml p {
+  padding-top: 150px;
+  color: #FFF;
+  font-size: 14px;
+}
+.member ul li a {
+  display: inline-block;
+  height: 38px;
+  width: 160px;
+  background: #fe7701;
+  border-radius: 4px;
+  line-height: 38px;
+  font-size: 18px;
+  color: #FFF;
+  margin: 20px 0 40px;
+}
+.member ul li a:hover {
+  opacity: 0.9;
+}
+#content {
+  background: #f7551d;
+}

@@ -1,0 +1,77 @@
+.evaluatelist .block1 {
+  overflow: hidden;
+  display: block;
+  width: 880px;
+  margin: 0 auto;
+  padding: 20px 0 20px 20px;
+  border-bottom: 1px dashed #e5e5e5;
+}
+.evaluatelist .block1 .describe {
+  margin-left: 20px;
+  width: 600px;
+}
+.evaluatelist .block1 .describe .sName {
+  font-size: 14px;
+  color: #393939;
+}
+.evaluatelist .block1 .describe .sdes {
+  width: 600px;
+  word-break: break-all;
+  line-height: 1.5em;
+  font-size: 13px;
+  color: #888;
+  margin-top: 10px;
+}
+.evaluatelist .block1 .blockList {
+  overflow: hidden;
+}
+.evaluatelist .block1 .time {
+  font-size: 13px;
+  color: #858585;
+}
+.evaluatelist .block1 .imgList {
+  width: 600px;
+  margin-left: 90px;
+}
+.evaluatelist .block1 .imgList img {
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.page {
+  width: 880px;
+  margin: 20px auto;
+}
+.page .pageC {
+  text-align: center;
+}
+.page .pageC .currentPage,
+.page .pageC .pages,
+.page .pageC .nextPage,
+.page .pageC .last {
+  display: inline-block;
+  padding: 0 5px;
+  font-size: 13px;
+}
+.page .pageC .currentPage {
+  color: #fe7701;
+}
+.page .pageC .nextPage,
+.page .pageC .last {
+  background-color: #f85600;
+  color: #fff;
+  padding: 3px 10px;
+  text-align: center;
+  margin-left: 10px;
+  border-radius: 3px;
+}
+.page .pageC .pages a {
+  display: inline-block;
+  padding: 4px 7px;
+  margin: 0 5px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.page .pageC .pages a.active {
+  background-color: #f85600;
+  color: #fff;
+}

@@ -1,6 +1,5 @@
 /node_modules/*
 /libs/*
 /.idea/*
-/tmp/*
 *.DS_Store
 

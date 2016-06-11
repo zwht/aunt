@@ -1,0 +1,119 @@
+.orders {
+  width: 880px;
+  margin: 30px auto 20px auto;
+}
+.orders .orderTitle {
+  background-color: #f4f4f4;
+  padding: 10px 0;
+}
+.orders span {
+  display: inline-block;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  font-size: 13px;
+  color: #393939;
+}
+.orders .t1 {
+  width: 255px;
+}
+.orders .t2 {
+  width: 130px;
+}
+.orders .t3 {
+  width: 113px;
+}
+.orders .t4 {
+  width: 130px;
+}
+.orders .t5 {
+  width: 150px;
+}
+.orders .t6 {
+  width: 100px;
+}
+.orderList {
+  width: 880px;
+  margin: 0 auto;
+}
+.orderList .orderMsg {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eaeaea;
+  padding-top: 10px;
+}
+.orderList .orderMsg span {
+  font-size: 14px;
+  color: #888;
+  padding-right: 51px;
+}
+.orderList .orderDetail .t1 span {
+  margin-top: 4px;
+  font-size: 13px;
+  display: block;
+  width: 149px;
+  margin-left: 8px;
+}
+.orderList .orderDetail .t1 .orderName {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 14px;
+  color: #393939;
+}
+.orderList .orderDetail .t1 .price {
+  color: #fe7701;
+}
+.orderList .orderDetail .t1 .allPrice {
+  color: #9e9e9e;
+}
+.orderList .orderDetail .t5 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 113px;
+}
+.orderList .orderDetail .t4 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  height: 113px;
+}
+.orderList .orderDetail .t5 a {
+  color: #fe7701;
+  font-size: 12px;
+}
+.orderList .orderDetail .t6 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.orderList .orderDetail .t6 a {
+  padding: 3px 5px;
+  text-align: center;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  width: 70px;
+  box-sizing: border-box;
+}
+.orderList .orderDetail .t6.pay a {
+  border-color: #fd6955;
+  color: #fd6955;
+}
+.orderList .orderDetail .centerOrder {
+  width: 500px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.orderList .evaluation .centerOrder {
+  border: 1px solid #eaeaea;
+  border-top: none;
+  border-left: none;
+}
+.orderList .evaluation .t4 {
+  border-right: 1px solid #eaeaea;
+}
+.orderList .evaluation .t5 {
+  border-right: 1px solid #eaeaea;
+}
+.nullbg {
+  width: 880px;
+  margin: 0 auto;
+  height: 10px;
+  background-color: #f4f4f4;
+}
